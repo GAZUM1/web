@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عيادات المشرق</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0d1b2a;
+      color: #cfd1d3;
+      font-family: 'Cairo', sans-serif;
+    }
+    .navbar, .footer {
+      background-color: #132743;
+    }
+    .navbar a, .footer p {
+      color: #afc9e3;
+    }
+
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url('OIP\ \(7\).jpg') no-repeat center/cover;
+      clip-path: ellipse(75% 60% at 50% 40%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(20, 64, 105);
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .btn-gold {
+      background-color: #d4af37;
+      color: #000;
+      border: none;
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .testimonial {
+      background-color: #1b2a41;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #d4af37;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">المشرق</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">من نحن</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">الخدمات</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="text-center">
+      <h1 class="display-4">مرحباً بكم في عيادات المشرق</h1>
+      <p class="lead">نحو الجمال بخطى واثقة</p>
+      <a href="contact.html" class="btn btn-gold btn-lg mt-3">احجز الآن</a>
+    </div>
+  </div>
+
+  <!-- Services Overview -->
+  <section class="section text-center">
+    <div class="container">
+      <h2 class="mb-4">ماذا نقدم في عيادات المشرق؟</h2>
+      <p>نقدم مجموعة من الخدمات الطبية التجميلية المتكاملة تشمل زراعة الشعر، الجلدية، التجميل، الأسنان، والليزر. نحن ندمج بين الخبرة والتكنولوجيا لنقدم لك أفضل النتائج.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section text-center bg-dark text-light">
+    <div class="container">
+      <h2 class="mb-4">آراء عملائنا</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="أحمد">
+            <p>"كانت تجربتي رائعة، الطاقم الطبي محترف جداً والنتائج مذهلة!"</p>
+            <small>- أحمد من القاهرة</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="سارة">
+            <p>"شكراً لعيادات المشرق، شعرت بالفرق من أول جلسة!"</p>
+            <small>- سارة من الإسكندرية</small>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="محمد">
+            <p>"خدمة ممتازة ونتائج احترافية، أنصح بها بشدة."</p>
+            <small>- محمد من طنطا</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer py-4 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 عيادات المشرق. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
